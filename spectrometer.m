@@ -14,7 +14,7 @@ end
 path = strcat(path, '/');
 
 %search according to naming of device in udev rules
-searchstr = '/dev/sd*';
+searchstr = '/dev/Spectrometer*';
 
 %get device path
 [status1,devices] = system(['ls ', searchstr]);
